@@ -31,7 +31,7 @@
         width: 250px;
     }
     .lan-skill{
-        position: fixed;
+        position: relative;
         width: 30px;
         height: 30px;
         box-sizing: border-box;
