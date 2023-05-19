@@ -47,7 +47,9 @@
     }
     /*hero*/
     .hero-wrapper{
-        column-gap: 30px;
+        -webkit-column-gap: 30px;
+           -moz-column-gap: 30px;
+                column-gap: 30px;
         padding: 30px 20px;
     }
     /*contact form*/
@@ -77,12 +79,15 @@
         left: -310px;
         top: 0;
         z-index: 99;
+        -webkit-transition: .5s;
         transition: .5s;
     }
     .left-section.section-show{
         left: 0;
     }
     .page-top{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         position: relative;
     }
@@ -92,7 +97,9 @@
     }
     /*hero*/
     .hero-wrapper{
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .hero-content h1{
         font-size: 27px;
@@ -158,7 +165,6 @@
     }
     
 }
-
 
 
 
