@@ -54,10 +54,13 @@ $(document).ready(function(){
     });
 
     /***********Load More**********/
-    $('.portfolio-project').slice(0, 4).fadeIn();
-    $('.load-btn').click(function(){
-        
-        
+    $('.portfolio-project').slice(0, 4).show();
+    $('.load-btn').on('click', function(){
+        $('.portfolio-project:hidden').fadeIn();
+        if($('.portfolio-project:hidden').length == 0){
+            $(this).hide();
+        }
+        return false;
     })
 
 
