@@ -230,9 +230,11 @@ a{
     padding: 20px 0;
     margin: 0 25px;
     border-bottom: 3px solid #72727c;
+	box-sizing: border-box;
 }
 .language-item{
     margin: 0 10px;
+	box-sizing: border-box;
 }
 .language-item p{
     color: #f1ecec;
