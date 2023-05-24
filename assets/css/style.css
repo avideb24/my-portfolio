@@ -425,6 +425,9 @@ a{
             justify-content: center;
     grid-gap: 20px;
 }
+.portfolio-project{
+    display: none;
+}
 .single-project{
     position: relative;
 }
